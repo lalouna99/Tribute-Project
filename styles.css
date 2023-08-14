@@ -1,0 +1,177 @@
+img {
+    display: block;
+  max-width: 100%;
+    height: auto;
+  }
+  
+  /* Global Styling */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    background-color: #f4f0ea;
+    color: #292929;
+  }
+  
+  h2, h3, h4 {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  figcaption,
+  #tribute-info {
+    text-align: center;
+  }
+  
+  
+  
+  
+  /* Navigation Bar Styling */
+  #nav-bar {
+    position: sticky;
+    top: 0;
+    background-color: rgba(25, 25, 25, 0.9);
+    font-family: 'Playfair Display', serif;
+  }
+  
+  #nav-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  
+  #nav-bar li {
+    margin: 0 15px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #nav-bar li:last-child {
+    margin-right: 0;
+  }
+  
+  #nav-bar li::after {
+    content: "|";
+    margin-left: 10px;
+    color: #efefef;
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fbfbfb;
+    font-size: 14px;
+    background-color: rgba(30, 39, 24, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .nav-link:hover {
+    background-color: #a96e6f;
+  }
+  
+  /* Header Styling */
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    color: #292929;
+    background-color: #f4f0ea;
+  }
+  
+  
+  
+  #title {
+    font-size: 40px;
+    margin-top: 20px; 
+    color: #292929;
+    font-family: 'Crimson Text', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    color: #292929;
+    background-color: #f4f0ea;
+  
+  }
+  
+  /*figure styling */
+  #img-caption {
+    font-style: italic;
+    color: gray;
+  }
+  
+  #image, #img-caption, #tribute-info {
+     
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  }
+  
+  #tribute-info {
+  font-style: italic;
+  color: gray;
+  
+  }
+  
+  h2 {
+    font-size: 30px;
+  
+  }
+  
+  h2#life + p::first-letter {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+  h4 {
+    font-size: 30px;
+  }
+  
+  
+  
+  
+  
+  /* Footer Styling */
+  footer {
+    padding: 20px 0;
+    background-color: rgba(25, 25, 25, 0.9);
+    color: #efefef;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  
+  
+  /* Media Queries */
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 15px;
+    }
+  }
+  
